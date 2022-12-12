@@ -22,10 +22,12 @@ img {
 .container {
     max-width: 900px;
     margin: 0 auto;
+    text-align: center;
 }
 
 div h1 {
     margin:20px;
+    color: #E53170;
 }
 
 .row {
@@ -37,6 +39,7 @@ div h1 {
     float: left;
     width: calc(100% / 3);
     padding: 15px 10px 15px 0;
+    text-align: left;
 }
 
 .col:nth-of-type(3n+3) {
@@ -46,14 +49,20 @@ div h1 {
 .card {
     background-color: #0F0E17;
     height: 80px;
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 .card img {
     height: 80px;
+    padding-right: 10px;
 } 
 
 .card-profile {
     float: left;
+}
+
+.card-info {
+    padding: 10px 0;
 }
 
 .card h2{
@@ -65,5 +74,5 @@ div h1 {
 }
 
 .card address {
-    color: blue;
+    color: #5FA6A3;
 }
