@@ -9,9 +9,9 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-clearfix {
+clearfix::after {
     content:'';
-    display: block;
+    display: table;
     clear: both;
 }
 
@@ -22,17 +22,39 @@ img {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    text-align: center;
+    background-color: red;
 }
 
 div h1 {
     margin:20px;
 }
 
+.row {
+    /* padding: 15px; */
+    background-color: blueviolet;
+}
+
 .col {
-    background-color: green;
-    border: 2px solid black;
+    background-color: #0F0E17;
+    color: white;
     float: left;
-    width: 250px;
-    margin: 15px;
+    width: 30%;
+    /* padding: 15px 15px; */
+}
+
+.card {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.card img {
+    height: 55px;
+} 
+
+.card-profile {
+    float: left;
+}
+
+.card h2, h3, address {
+    font-size: 12px;
 }
