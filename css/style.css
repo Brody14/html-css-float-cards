@@ -22,6 +22,9 @@ img {
 .container {
     max-width: 900px;
     margin: 0 auto;
+}
+
+.intestazione {
     text-align: center;
 }
 
@@ -31,7 +34,7 @@ div h1 {
 }
 
 .row {
-    padding: 15px 0
+    padding: 15px 0;
 }
 
 .col {
